@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive, sans-serif;
+}
+
+body {
+	background-color: #2f2f2f;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#timer {
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+     font-weight: bold;
+	border-radius: 50px;
+	color: #5ad78c;
+	font-size: 3rem;
+	box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.1),
+		4px 4px 4px rgba(0, 0, 0, 0.4);
+}
